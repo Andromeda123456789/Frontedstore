@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="Logotipo">
+        </a>
+
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>    
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+            
+    </nav> 
+    
+    <h1>Nosotros</h1>
+
+    <main class="nosotros">
+        
+
+        <div class="contenedornosotros">
+            <img class="nosotros" src="/img/nosotros.jpg" alt="camisa">
+
+            <div class="nosotros__contenido">    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dictum enim,
+                     et pharetra nibh. Sed aliquam dolor tellus, nec pulvinar mi laoreet at.
+                     Duis tristique aliquam nisi, sit amet finibus est fringilla id. Quisque varius aliquet gravida.
+                     Nulla vitae elementum justo.  </p>
+
+                     <p>Donec semper molestie mollis. Morbi porta quam nibh, in tempor turpis consequat a.
+                     Nulla erat nibh, sollicitudin nec nisl nec, mattis pharetra metus. In id orci quis risus gravida dapibus eu vel ex.
+                     Nunc malesuada sed risus eu laoreet. </p>  
+        </div>
+    </main>
+
+    <h2 class="comprar__titulo">¿Por que comprar con nosotros?</h2>
+    
+    <seccion class="contenedorcomprar">
+            
+        <div class="bloques">
+            <img class="bloque__imagen" src="/img/icono_1.png" alt="porque comprar">
+            <h3 class="bloque_titulo">El mejor precio</h3>
+            <p>Vestibulum ante Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dictum enim,
+                et pharetra nibh.</p>
+        </div> <!--.bloque-->
+        <div class="bloques">
+            <img class="bloque__imagen" src="/img/icono_2.png" alt="porque comprar">
+            <h3 class="bloque_titulo">Para devs</h3>
+            <p>Vestibulum ante Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dictum enim,
+                et pharetra nibh.</p>
+        </div> <!--.bloque-->
+        <div class="bloques">
+            <img class="bloque__imagen" src="/img/icono_3.png" alt="porque comprar">
+            <h3 class="bloque_titulo">Envío gratis</h3>
+            <p>Vestibulum ante Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dictum enim,
+                et pharetra nibh.</p>
+        </div> <!--.bloque-->
+        <div class="bloques">
+            <img class="bloque__imagen" src="/img/icono_4.png" alt="porque comprar">
+            <h3 class="bloque_titulo">La mejor calidad</h3>
+            <p>Vestibulum ante Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dictum enim,
+                et pharetra nibh.</p>
+        </div> <!--.bloque-->
+    </seccion>    
+    <footer class="footer">
+        <p class="footer__texto"></p> Frontend store. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
